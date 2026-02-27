@@ -48,6 +48,14 @@ st.set_page_config(
 st.markdown(
     """
 <style>
+/* Remove white header bar */
+header[data-testid="stHeader"] {
+    background-color: #0a0a0f !important;
+    border-bottom: none !important;
+}
+[data-testid="stToolbar"] {
+    display: none !important;
+}
 /* Global layout - dark background */
 .main, .block-container, [data-testid="stAppViewContainer"] {
     background-color: #0a0a0f !important;
@@ -56,6 +64,13 @@ st.markdown(
 }
 section[data-testid="stSidebar"] {
     background-color: #0a0a0f !important;
+}
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+section[data-testid="stSidebar"] .stExpander {
+    border: 1px solid #2a2a3e !important;
+    border-radius: 8px !important;
 }
 /* Streamlit default text colors */
 body, [class^="css"], .stMarkdown, .stText, .stTitle, .stHeader {
