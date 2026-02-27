@@ -209,6 +209,14 @@ body, [class^="css"], .stMarkdown, .stText, .stTitle, .stHeader {
     70% { box-shadow: 0 0 0 10px rgba(99, 102, 241, 0), 0 16px 38px rgba(15, 23, 42, 0.9); }
     100% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0), 0 16px 38px rgba(15, 23, 42, 0.9); }
 }
+/* Tabs */
+.stTabs [data-baseweb="tab"] {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+.stTabs [data-baseweb="tab"][aria-selected="false"] {
+    color: #aaaaaa !important;
+}
 </style>
 """,
     unsafe_allow_html=True,
