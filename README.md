@@ -395,7 +395,7 @@ LinkedIn finds people. HubSpot tracks them. DealAgent closes them.
 
 Built with love at the Autonomous Agents Hackathon — AWS Builder Loft SF
 
-- Arun Ajithesh
+- ArunA Jithesh
 - Chinmayi
 - Meghana Chowdary
 
