@@ -225,9 +225,8 @@ Built with love at the **Autonomous Agents Hackathon — AWS Builder Loft SF**
 
 ## Team
 
-- ArunA Jithesh
-- Chinmayi
-- Meghana Chowdary
+- Aruna Jithesh
+
 
 ---
 
